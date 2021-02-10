@@ -3,7 +3,7 @@
 **   CIntrusiveTree.h: Intrusive red-black tree helper class
 */
 #pragma once
-#include "common.h"
+#include "nanovg/framework/common.h"
 
 #include <functional>
 

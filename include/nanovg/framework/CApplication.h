@@ -3,7 +3,7 @@
 **   CApplication.h: Wrapper class containing common application boilerplate
 */
 #pragma once
-#include "common.h"
+#include "nanovg/framework/common.h"
 
 class CApplication
 {

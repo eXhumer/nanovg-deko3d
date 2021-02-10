@@ -274,7 +274,7 @@
 //
 #if 0
 #define STB_TRUETYPE_IMPLEMENTATION  // force following include to generate implementation
-#include "stb_truetype.h"
+#include "nanovg/stb_truetype.h"
 
 unsigned char ttf_buffer[1<<20];
 unsigned char temp_bitmap[512*512];
@@ -323,7 +323,7 @@ void my_stbtt_print(float x, float y, char *text)
 #if 0
 #include <stdio.h>
 #define STB_TRUETYPE_IMPLEMENTATION  // force following include to generate implementation
-#include "stb_truetype.h"
+#include "nanovg/stb_truetype.h"
 
 char ttf_buffer[1<<25];
 

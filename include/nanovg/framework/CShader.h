@@ -3,8 +3,8 @@
 **   CShader.h: Utility class for loading shaders from the filesystem
 */
 #pragma once
-#include "common.h"
-#include "CMemPool.h"
+#include "nanovg/framework/common.h"
+#include "nanovg/framework/CMemPool.h"
 
 class CShader
 {

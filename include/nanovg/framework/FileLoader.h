@@ -3,7 +3,7 @@
 **   FileLoader.h: Helpers for loading data from the filesystem directly into GPU memory
 */
 #pragma once
-#include "common.h"
-#include "CMemPool.h"
+#include "nanovg/framework/common.h"
+#include "nanovg/framework/CMemPool.h"
 
 CMemPool::Handle LoadFile(CMemPool& pool, const char* path, uint32_t alignment = DK_CMDMEM_ALIGNMENT);

@@ -3,9 +3,9 @@
 **   CMemPool.h: Pooled dynamic memory allocation manager class
 */
 #pragma once
-#include "common.h"
-#include "CIntrusiveList.h"
-#include "CIntrusiveTree.h"
+#include "nanovg/framework/common.h"
+#include "nanovg/framework/CIntrusiveList.h"
+#include "nanovg/framework/CIntrusiveTree.h"
 
 class CMemPool
 {

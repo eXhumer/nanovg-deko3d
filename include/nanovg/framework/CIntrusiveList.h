@@ -3,7 +3,7 @@
 **   CIntrusiveList.h: Intrusive doubly-linked list helper class
 */
 #pragma once
-#include "common.h"
+#include "nanovg/framework/common.h"
 
 template <typename T>
 struct CIntrusiveListNode
