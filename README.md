@@ -9,7 +9,7 @@ An example of using this library can be found [here](https://github.com/eXhumer/
 ## License
 The library is licensed under [zlib license](LICENSE).
 
-Dependencies:
+### Dependencies
 * fincs' deko3d framework is licensed under [zlib license](source/framework/LICENSE).
 
 ## Links
