@@ -16,7 +16,7 @@ DEFINES	:=	-D__SWITCH__
 CFLAGS	:=	-Wall -O3 -ffunction-sections \
 			$(ARCH) $(DEFINES)
 
-CXXFLAGS	:= -std=gnu++17 -fno-exceptions -fno-rtti
+CXXFLAGS	:= -std=gnu++2a -fno-exceptions -fno-rtti
 
 ASFLAGS	:=	$(ARCH)
 
@@ -27,7 +27,6 @@ LIB_OUTPUT	:=	$(OUTPUT).a
 
 CFILES		:=	$(foreach SOURCE,$(SOURCES),$(wildcard $(SOURCE)/*.c))
 CPPFILES	:=	$(foreach SOURCE,$(SOURCES),$(wildcard $(SOURCE)/*.cpp))
-GLSLFILES	:=	$(foreach SOURCE,$(SOURCES),$(wildcard $(SOURCE)/*.glsl))
 
 ifeq ($(strip $(CPPFILES)),)
 	LD	:=	$(CC)
