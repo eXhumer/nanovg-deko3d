@@ -9,8 +9,8 @@ The following packages are required for building:
 * `libnx`
 * `deko3d`
 
-After installing required packages, run the following command to build library;
-`make -j`
+After installing required packages, run the following command to build library:
+> `make -j`
 
 ## Example
 An example of using this library can be found [here](https://github.com/eXhumer/hello-nanovg).
