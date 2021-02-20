@@ -8,6 +8,7 @@ The following packages are required for building:
 * `devkitA64`
 * `libnx`
 * `deko3d`
+* `switch-glm`
 
 After installing required packages, run the following command to build library:
 > `make -j`
